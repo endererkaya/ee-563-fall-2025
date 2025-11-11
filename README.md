@@ -1,2 +1,5 @@
 # ee-563-fall-2025
-Artificial Intelligence (AI) in Practice
+Part1 Kısmında Hollistic Kütüphanesi kullanıldı. Omuzun üstünde olan kollar pozitif olarak işaretlendi. Omuzun altında olan kollar ise bilinçli olarak dirsek ve bilek kısmına bakılarak eğer bilek yukarı bakıyorsa yine pozitif olarak kabul edildi. Bilgisayarda son anda yaşanan bir problemden dolayı terminalde çalışmak üzere hazırlanan .py kodunun üzerine boş .py kodu overwrite edildi. Kurtarıcı programıyla kurtarmaya çalışılıyor.
+
+Part2 Kısmında 3 ayrı metrik kullanıld. 1. metriğimiz Gx', yani iki göz ortası, burun kenarı ve dudağın ağırlık merkezi. İkinci metriğimiz yaw, burnun göz ortasına göre konumu. 3. metriğimizde ise önce FaceDetector ile birçok önemli nokta detect edilip konum olarak işaretlendi. Bunların herbirini nokta kabul edebiliriz. Sonra düzlemde önce Gaussian kernel pdf estimate edip entropy hesaplamaya çalıştık. Entropy az biraz fark yarattı simetriyi ölçtüğü için ama hassasiyeti düşük olduğu için kullanamadık. Sonra X ve Z eksenlerinde total variance hesapladık. Bunlar özellikle dönüşlerde mükemmel ölçüler ancak convex fonksiyonlar ve minimumları front hali. Bu metriği diğer metriklerle uyumlu hale getirmek için biraz uğraştık. Üstüne bazı logiclerle önlemler almamız gerekti. Sonuçta final score functionımız fuse edilmiş uc metrikten oluşuyor ve o şekilde detect ediyoruz.
+
