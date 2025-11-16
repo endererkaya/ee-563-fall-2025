@@ -1,0 +1,15 @@
+MAIN FILE: maskrcnn_inference.py
+!!!!!!
+!!!!!!   PLEASE DOWNLOAD THE MODEL, IT IS HITTING THE STORAGE LIMIT
+!!!!!!        
+!!!!!!   GOOGLE DRIVE: https://drive.google.com/file/d/14y6HXloxqpbHKwM1cbH3EqnBgoUaJCf3/view?usp=sharing
+!!!!!!
+USAGE: FROM TERMINAL 
+>> python maskrcnn_inference.py "C:\Users\endererkaya\OneDrive\Desktop\MaskRCNN\balloon2.jpg"
+OUTPUT: On Terminal: Object no,
+                     Label,
+                     Pixel area,
+                     Total Balloon Ratio,
+                     Inference Time,
+
+        On Screen:   Segmented Image
