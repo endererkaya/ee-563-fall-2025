@@ -1,0 +1,7 @@
+path: C:/Users/endererkaya/OneDrive/Desktop/Mini Project 2/balloon_YOLO_SEG_OUTPUT
+
+train: images/train
+val: images/train   # val yerine train'i gösteriyoruz
+
+nc: 1
+names: ['balloon']

@@ -1,0 +1,15 @@
+# balloon.yaml dosyasının içeriği
+
+# Resimlerin ve etiketlerin kök dizini (Sizin OUTPUT_YOLO_DIR klasörünüzün tam yolu)
+path: C:/Users/endererkaya/OneDrive/Desktop/Mini Project 2/balloon_YOLO_SEG_OUTPUT
+
+# Eğitim ve doğrulama resimlerinin kök dizinine göre yolları
+# (path: değişkeninden sonra gelir)
+train: images/train  
+val: images/val      
+
+# Sınıf sayısı (Balon için 1)
+nc: 1
+
+# Sınıf isimleri (YOLO 0'dan başlar)
+names: ['balloon']
