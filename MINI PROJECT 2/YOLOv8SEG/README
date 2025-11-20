@@ -1,0 +1,14 @@
+### MAIN FILE: find_balloon_ratio.py
+### USAGE: FROM TERMINAL:
+### >>> python find_balloon_ratio.py "C:\Users\endererkaya\OneDrive\Desktop\MaskRCNN\balloon2.jpg"
+### OUTPUT: RATIO OF DETECTED BALLOONS PIXEL AREAS IN THE IMAGE
+--------------------------------------------------------------------
+### FOR INFERENCE: Yolov8SegInference.py
+### USAGE: FROM TERMINAL:
+### >>> python Yolov8SegInference.py "C:\Users\endererkaya\OneDrive\Desktop\MaskRCNN\balloon2.jpg"
+### OUTPUT: INFERENCE TIME
+            SEGMENTED IMAGE ON THE SCREEN
+---------------------------------------------------------------------
+OTHER .PY FILES ARE USED FOR HYPERPARAMETER TUNING
+BALLOON_YOLO_SEG_OUTPUT IS DATA FOLDER FOR YOLO SYNTAX
+runs FOLDER INCLUDE TRAINED MODELS
